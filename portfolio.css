@@ -1,3 +1,7 @@
 body {
 	font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
 }
+
+.projects {
+	padding: 10px 0 10px 0;
+}
