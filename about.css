@@ -1,0 +1,55 @@
+@media only screen and (max-width: 600px) {
+	body {
+	  	margin: 0 10%;
+	}
+
+	img {
+		width: 80vw;
+		height: 50vw;
+	}
+
+	iframe {
+		width: 80vw;
+		height: 50vw;
+	}
+}
+
+body {
+	margin: 0 20%;
+	font-family: 'Poppins', sans-serif;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	position: sticky;
+	top: 0;
+	width: 100%;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	background-color: #111;
+}
+
+.active {
+	background-color: #8860d0;
+}
+
+.active:hover {
+	background-color: #7151ac;
+}
