@@ -1,6 +1,21 @@
 body {
-	margin: 0 20%;
+	background-color: #17252A;
+	display: block;
+	width: 100%;
+	margin: auto;
 	font-family: 'Poppins', sans-serif;
+	color: #FEFFFF;
+}
+
+body * {
+	margin: auto;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	background-color: #3AAFA9;
+	padding: 80px;
 }
 
 img {
@@ -9,22 +24,22 @@ img {
 	height: 37.5vw;
 }
 
-a {
-	text-decoration: none;
-	color: black;
-}
-
 iframe {
 	width: 60vw;
 	height: 37.5vw;
 }
 
-ul {
+a {
+	text-decoration: none;
+	color: #FEFFFF;
+}
+
+.nav {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #333;
+	background-color: #DEF2F1;
 	position: sticky;
 	top: 0;
 	width: 100%;
@@ -34,46 +49,37 @@ li {
 	float: left;
 }
 
-li a {
+.nav a {
 	display: block;
-	color: white;
 	text-align: center;
-	padding: 14px 20px;
 	text-decoration: none;
+	color: #17252A;
+	padding: 1em 3em;
 }
 
-li a:hover:not(.active) {
-	background-color: #111;
+li a:hover {
+	background-color: #c7dddc;
 }
 
 .active {
-	background-color: #8860d0;
+	background-color: #2b7a78;
+	color: #FEFFFF;
 }
 
 .active:hover {
-	background-color: #7151ac;
+	background-color: #1d5957;
+}
+
+.github {
+	float: right;
 }
 
 .projects > div {
-	padding-top: 100px;
+	padding-top: 5rem;
+	padding-bottom: 2rem;
 }
 
 .projects div:first-child {
-	padding-top: 0;
-}
-
-@media screen and (max-width: 1080px) {
-	body {
-		margin: 0 10%;
-	}
-
-	img {
-		width: 80vw;
-		height: 50vw;
-	}
-
-	iframe {
-		width: 80vw;
-		height: 50vw;
-	}
+	padding-top: 2rem;
+	padding-bottom: 2rem;
 }
