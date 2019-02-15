@@ -88,53 +88,6 @@ a {
 	text-decoration: none;
 	color: #feffff;
 }
-/*
-.nav {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #DEF2F1;
-	position: sticky;
-	top: 0;
-	width: 100%;
-}
-
-li {
-	float: left;
-}
-
-.nav a {
-	display: block;
-	text-align: center;
-	text-decoration: none;
-	color: #17252A;
-	padding: 1em 3em;
-}
-
-li a:hover {
-	background-color: #c7dddc;
-}
-
-.active {
-	background-color: #2b7a78;
-	color: #FEFFFF;
-}
-
-.active:hover {
-	background-color: #1d5957;
-}
-*/
-.github {
-	position: absolute;
-	top: 0;
-	right: 0;
-	text-align: center;
-	text-decoration: none;
-	color: #17252A;
-	padding: 1em 2em;
-	font-size: 1em;
-}
 
 .triborder {
 	position: absolute;
@@ -200,6 +153,7 @@ li a:hover {
 	margin: 0 auto;
 	text-align: center;
 	color: #17252a;
+	background-color: #feffff;
 	border: 1px solid #17252a;
 	border-radius: 0.8em;
 	padding: 0.7em 3.7em;
@@ -219,4 +173,35 @@ li a:hover {
 	text-align: center;
 	padding: 1.5em 0 0 0;
 	font-size: 0.9em;
+}
+
+.contact {
+	width: 52%;
+	text-align: left;
+}
+
+.contact p {
+	margin: 0;
+}
+
+#subject {
+	width: 100%;
+	border: 1px solid #17252a;
+	border-radius: 0.5em;
+	padding: 0.7em;
+	margin: 0.5em 0 1.3em 0;
+	font-size: 1em;
+}
+
+#message {
+	width: 100%;
+	height: 5em;
+	border: 1px solid #17252a;
+	border-radius: 0.5em;
+	padding: 0.7em;
+	margin: 0.5em 0 1.7em 0;
+	font-size: 1em;
+	resize: vertical;
+	min-height: 2em;
+	line-height: 1.3;
 }

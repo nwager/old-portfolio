@@ -7,16 +7,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 	<link href="Noah-Free/Noah-Regular.ttf">
 
-	<script>
-	/*window.onload = function () {
-		var banner = document.getElementById("banner");
-
-		banner.addEventListener("click", function () {  //random color banner onclick
-			banner.style.backgroundColor = "#" + Math.floor(Math.random()*16777215).toString(16);
-		});
-
-	}*/
-	</script>
+	<script src="contact.js"></script>
 
 </head>
 <body>
@@ -32,13 +23,6 @@
 		<h1>Noah Wager</h1>
 		<h2>Portfolio</h2>
 	</div>
-
-	<!--<a class="github" href="https://github.com/nwager/nwager.github.io" target="_blank">Github</a>
-
-	<ul class="nav">
-		<li><a class="active" href="index.html">Home</a></li>
-		<li><a href="about.html">About</a></li>
-	</ul>-->
 
 	<div class="projects">
 		<div>
@@ -80,8 +64,17 @@
 		<p>I'm a senior at Cleveland High School in Portland, Oregon. I like playing bass and I don't understand CSS.<br><br>
 		This is my portfolio page, made from scratch using HTML, CSS, JS, and my designer parents.<br><br></p>
 		<!--a href="mailto:noahwager@gmail.com" id="emailme">Email me</a>-->
+		
+		<div class="contact">
+			<p>Subject</p>
+			<input type="text" id="subject" name="subject">
+
+			<p>Message</p>
+			<textarea id="message" name="message"></textarea>
+		</div>
+
 		<div id="emaildiv">
-			<a href="mailto:noahwager@gmail.com">Email me</a>
+				<a id ="emaillink" href="#mailto:noahwager@gmail.com">Email me</a>
 		</div>
 		<p id="email">noahwager@gmail.com</p>
 	</div>
