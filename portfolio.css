@@ -20,10 +20,10 @@ body {
 }
 
 #banner {
-	/*background-color: #3AAFA9;*/
-	background-image: url("images/bg.png");
+	background-color: #f05642;
+	/*background-image: url("images/bg.png");*/
 	padding: 2.3em 0;
-	border-bottom: 0.6em solid #ff4334;
+	border-bottom: 0.6em solid #f05642;
 }
 
 #banner h1 {
@@ -69,6 +69,10 @@ body {
 
 .viewProj a {
 	color: #5AE4DD;
+}
+
+.viewProj a:hover {
+	color: #85ece7;
 }
 
 .projHead {
@@ -173,6 +177,7 @@ a {
 #emaildiv a:hover {
 	background-color: #17252a;
 	color: #feffff;
+	cursor: pointer;
 }
 
 #emaildiv a:active {

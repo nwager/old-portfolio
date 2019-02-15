@@ -10,7 +10,7 @@ function sendEmail ()
     var sendSubject = document.getElementById("subject").value;
     console.log(sendSubject, sendMessage);
 
-    document.location.href = "mailto:chrisgreg23@googlemail.com?subject="
+    document.location.href = "mailto:noahwager+portfolio@gmail.com?subject="
         + encodeURIComponent(sendSubject)
         + "&body=" + encodeURIComponent(sendMessage);
 }
