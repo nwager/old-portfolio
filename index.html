@@ -5,51 +5,85 @@
 	<meta charset="utf-8" lang="en">
 	<link rel="stylesheet" type="text/css" href="portfolio.css">
 	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+	<link href="Noah-Free/Noah-Regular.ttf">
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script>
-	window.onload = function () {
+	/*window.onload = function () {
 		var banner = document.getElementById("banner");
 
 		banner.addEventListener("click", function () {  //random color banner onclick
 			banner.style.backgroundColor = "#" + Math.floor(Math.random()*16777215).toString(16);
 		});
 
-	}
+	}*/
 	</script>
 
 </head>
 <body>
 
-	<h1 id="banner">Noah Wager</h1>
+	<a href="https://github.com/nwager/nwager.github.io" target="_blank">
+		<div class="triborder"></div>
+		<div class="triangle"></div>
+		<img class="githubimg" src="images/github.png" alt="Github">
+	</a>
+	
+	<div id="banner">
+		<img src="images/pic.png" alt="Portrait">
+		<h1>Noah Wager</h1>
+		<h2>Portfolio</h2>
+	</div>
+
+	<!--<a class="github" href="https://github.com/nwager/nwager.github.io" target="_blank">Github</a>
 
 	<ul class="nav">
 		<li><a class="active" href="index.html">Home</a></li>
 		<li><a href="about.html">About</a></li>
-		<li class="github"><a href="https://github.com/nwager/nwager.github.io" target="_blank">Github</a></li>
-	</ul>
+	</ul>-->
 
 	<div class="projects">
-		<div class="section">
-			<h2>
-				<a href="https://nwager.github.io/music-maker/" target="_blank">ToK PLE - Music Maker</a>
-			</h2>
+		<div>
+			<h2 class="projHead">ToK PLE - Music Maker</h2>
 			<img src="images/MusicMakerCap.png" alt="Screen cap of music maker project">
+			<div class="description">
+				<p>This is a virtual synth I put together using HTML/CSS/JS for my Personal Learning Experience in my junior year Theory of Knowledge class. My objective was to learn how to  do something with JavaScript and a synth seemed to adequately combine my interest in music and programming.</p>
+				<p class="viewProj"><a href="https://nwager.github.io/music-maker/" target="_blank">View project &nbsp>></a></p>
+			</div>
 		</div>
-		<div class="section">
-			<h2>
-				<a href="https://nwager.github.io/CircularMotion/" target="_blank">CS IA - Circular Motion</a>
-			</h2>
+		<div>
+			<h2 class="projHead">CS IA - Circular Motion</h2>
 			<img src="images/CircularMotionCap.png" alt="Screen cap of circular motion project">
+			<div class="description">
+				<p>IA stands for Internal Assessment, which is a large project required by IB. For my CS IA in senior year, I made a website containing simulations of circular motion concepts using JS canvas. As well as programming, the project included design processes and, of course, documentation. Everyone's favorite part of programming.</p>
+				<p class="viewProj"><a class="viewProj" href="https://nwager.github.io/CircularMotion/" target="_blank">View project &nbsp>></a></p>
+			</div>
 		</div>
-		<div class="section">
-			<h2>CS Game - River Bear</h2>
+		<div>
+			<h2 class="projHead">CS Game - River Bear</h2>
 			<iframe src="https://www.youtube.com/embed/0J-wGurpo0k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<div class="description">
+				<p>In my sophomore year, my Game Programming class was tasked with a semester long project in which we had to create a game using Unity and ourown assets. In my game, the player navigates a treacherous river as a bear trying to return to their family, all the while shooting fish with a back-mounted turret.</p>
+				<p class="viewProj"><a class="viewProj" href="https://www.youtube.com/watch?v=0J-wGurpo0k&feature=youtu.be" target="_blank">View project &nbsp>></a></p>
+			</div>
 		</div>
-		<div class="section">
-			<h2>CS Game - Level Cleveland</h2>
+		<div>
+			<h2 class="projHead">CS Game - Level Cleveland</h2>
 			<iframe src="https://www.youtube.com/embed/6TtsChptpiE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<div class="description">
+				<p>This game project was similar to my sophomore year; the differences were that I was a freshman and my class used Game Maker. The player tries to survive all 8 of my freshman-year classes by avoiding enemies, navigating mazes, and math.</p>
+				<p class="viewProj"><a class="viewProj" href="https://www.youtube.com/watch?v=6TtsChptpiE&feature=youtu.be" target="_blank">View project &nbsp>></a></p>
+			</div>
 		</div>
+	</div>
+
+	<div class="footer">
+		<h2 class="aboutHead">About Me</h2>
+		<p>I'm a senior at Cleveland High School in Portland, Oregon. I like playing bass and I don't understand CSS.<br><br>
+		This is my portfolio page, made from scratch using HTML, CSS, JS, and my designer parents.<br><br></p>
+		<!--a href="mailto:noahwager@gmail.com" id="emailme">Email me</a>-->
+		<div id="emaildiv">
+			<a href="mailto:noahwager@gmail.com">Email me</a>
+		</div>
+		<p id="email">noahwager@gmail.com</p>
 	</div>
 </body>
 </html>

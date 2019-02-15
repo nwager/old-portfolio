@@ -1,39 +1,94 @@
+@font-face { 
+	font-family: 'Noah-Regular';
+	src: url('Noah-Free/Noah-Regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Noah-Bold';
+	src: url('Noah-Free/Noah-Bold.woff') format('woff');
+}
+
 body {
 	background-color: #17252A;
 	display: block;
-	width: 100%;
-	margin: auto;
 	font-family: 'Poppins', sans-serif;
-	color: #FEFFFF;
+	color: #feffff;
 }
 
-body * {
+* {
 	margin: auto;
-	text-align: center;
 }
 
-h1 {
-	text-align: center;
-	background-color: #3AAFA9;
-	padding: 80px;
+#banner {
+	/*background-color: #3AAFA9;*/
+	background-image: url("images/bg.png");
+	padding: 2.3em 0;
+	border-bottom: 0.6em solid #ff4334;
 }
 
-img {
+#banner h1 {
+	font-family: Noah-Regular;
+	font-weight: normal;
+	font-style: normal;
+	text-align: center;
+	font-size: 3.6em;
+}
+
+#banner h2 {
+	font-family: Noah-Regular;
+	font-weight: normal;
+	font-style: normal;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+#banner img {
+	margin-right: auto;
+	margin-left: auto;
 	display: block;
-	width: 60vw;
-	height: 37.5vw;
+	padding-bottom: 1.7em;
+}
+
+.projects img {
+	display: block;
+	width: 52vw;
+	height: 32.5vw;
+	padding: 1.5em 0;
+}
+
+.description {
+	width: 52%;
+	text-align: left;
+	font-size: 1.1em;
+	line-height: 1.6em;
+}
+
+.viewProj {
+	padding-top: 0.5em;
+}
+
+.viewProj a {
+	color: #5AE4DD;
+}
+
+.projHead {
+	width: 52%;
+	text-align: left;
+	font-size: 1.8em;
 }
 
 iframe {
-	width: 60vw;
-	height: 37.5vw;
+	display: block;
+	width: 52vw;
+	height: 32.5vw;
+	padding: 1.5em 0;
 }
 
 a {
 	text-decoration: none;
-	color: #FEFFFF;
+	color: #feffff;
 }
-
+/*
 .nav {
 	list-style-type: none;
 	margin: 0;
@@ -69,17 +124,99 @@ li a:hover {
 .active:hover {
 	background-color: #1d5957;
 }
-
+*/
 .github {
-	float: right;
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: center;
+	text-decoration: none;
+	color: #17252A;
+	padding: 1em 2em;
+	font-size: 1em;
+}
+
+.triborder {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 0;
+	height: 0;
+	border: 3.6em solid #00eae1;
+	border-left: 3.6em solid transparent;
+	border-bottom: 3.6em solid transparent;
+}
+
+.triangle {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 0;
+	height: 0;
+	border: 3.2em solid #17252a;
+	border-left: 3.2em solid transparent;
+	border-bottom: 3.2em solid transparent;
+}
+
+.githubimg {
+	position: absolute;
+	top: 0.9em;
+	right: 0.9em;
 }
 
 .projects > div {
-	padding-top: 5rem;
-	padding-bottom: 2rem;
+	padding: 4em 0 0 0;
 }
 
-.projects div:first-child {
-	padding-top: 2rem;
-	padding-bottom: 2rem;
+.projects > div:last-child {
+	padding-bottom: 4em;
+}
+
+.footer {
+	background-color: #feffff;
+	color: #17252a;
+	padding: 4em 0;
+}
+
+.footer h2 {
+	width: 52%;
+	text-align: left;
+	font-size: 2em;
+	padding: 0 0 0.5em;
+}
+
+.footer p {
+	width: 52%;
+	text-align: left;
+}
+
+#emaildiv {
+	width: 100%;
+  	text-align: center;
+}
+
+#emaildiv a {
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
+	color: #17252a;
+	border: 1px solid #17252a;
+	border-radius: 0.8em;
+	padding: 0.7em 3.7em;
+}
+
+#emaildiv a:hover {
+	background-color: #17252a;
+	color: #feffff;
+}
+
+#emaildiv a:active {
+	background-color: black;
+	color: #feffff;
+}
+
+#email {
+	text-align: center;
+	padding: 1.5em 0 0 0;
+	font-size: 0.9em;
 }
