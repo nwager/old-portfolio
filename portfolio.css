@@ -75,6 +75,21 @@ body {
 	width: 52%;
 	text-align: left;
 	font-size: 1.8em;
+	padding-top: 1em;
+	border-top: 2px solid #feffff;
+}
+
+.first h2 {
+	border-top: 0;
+	margin-top: 0.5em;
+}
+
+.projects > div {
+	margin-bottom: 4em;
+}
+
+.projects > div:last-child {
+	margin-bottom: 4em;
 }
 
 iframe {
@@ -115,14 +130,6 @@ a {
 	position: absolute;
 	top: 0.9em;
 	right: 0.9em;
-}
-
-.projects > div {
-	padding: 4em 0 0 0;
-}
-
-.projects > div:last-child {
-	padding-bottom: 4em;
 }
 
 .footer {
