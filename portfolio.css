@@ -135,7 +135,11 @@ a {
 	width: 52%;
 	text-align: left;
 	font-size: 2em;
-	padding: 0 0 0.5em;
+	margin: 0 auto 0.3em;
+}
+
+.contacth2 {
+	padding-top: 0.7em;
 }
 
 .footer p {
