@@ -22,7 +22,7 @@ body {
 #banner {
 	background-image: url("images/bg.png");
 	padding: 2.3em 0;
-	border-bottom: 0.5em solid rgb(255, 60, 39);
+	border-bottom: 0.5em solid #f65c4b;
 }
 
 #banner h1 {
