@@ -20,10 +20,9 @@ body {
 }
 
 #banner {
-	background-color: #f05642;
-	/*background-image: url("images/bg.png");*/
+	background-image: url("images/bg.png");
 	padding: 2.3em 0;
-	border-bottom: 0.6em solid #f05642;
+	border-bottom: 0.5em solid rgb(255, 60, 39);
 }
 
 #banner h1 {
@@ -129,6 +128,11 @@ a {
 	border-left: 3.2em solid transparent;
 	border-bottom: 3.2em solid transparent;
 }
+
+.trianglelink:hover .triangle {
+	border: 3.2em solid black;
+	border-left: 3.2em solid transparent;
+	border-bottom: 3.2em solid transparent;}
 
 .githubimg {
 	position: absolute;
