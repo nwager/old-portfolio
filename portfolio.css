@@ -162,6 +162,13 @@ a {
 	text-align: left;
 }
 
+.footer img {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	padding-bottom: 1.2em;
+}
+
 #emaildiv {
 	width: 100%;
   	text-align: center;
