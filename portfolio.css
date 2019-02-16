@@ -1,3 +1,15 @@
+/*
+color palette {
+	
+	#feffff whiteish
+	#17252a blackish
+	#f65c4b reddish
+	#5ae4dd electric blue
+	#85ece7 light electric blue
+
+	#00eae1 github icon
+}
+*/
 @font-face { 
 	font-family: 'Noah-Regular';
 	src: url('Noah-Free/Noah-Regular.woff') format('woff');
@@ -166,7 +178,7 @@ a {
 	margin-right: auto;
 	margin-left: auto;
 	display: block;
-	padding-bottom: 1.2em;
+	padding-bottom: 1.7em;
 }
 
 #emaildiv {
@@ -178,8 +190,8 @@ a {
 	display: inline-block;
 	margin: 0 auto;
 	text-align: center;
-	color: #17252a;
-	background-color: #feffff;
+	color: #feffff;
+	background-color: #f65c4b;
 	border: 1px solid #17252a;
 	border-radius: 0.8em;
 	padding: 0.7em 3.7em;
