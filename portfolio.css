@@ -33,8 +33,9 @@ body {
 
 #banner {
 	background-image: url("images/bg.png");
-	padding: 2.3em 0;
-	border-bottom: 0.5em solid #f65c4b;
+	/*padding: 2.3em 0;*/
+	padding: 5em 0 3em 0;
+	border-bottom: 0.4em solid #f65c4b;
 }
 
 #banner h1 {
@@ -42,7 +43,9 @@ body {
 	font-weight: normal;
 	font-style: normal;
 	text-align: center;
-	font-size: 3.6em;
+	font-size: 6em;
+	text-shadow: 0.025em 0.03em #f65c4b;
+	margin-bottom: 0.3em;
 }
 
 #banner h2 {
@@ -52,14 +55,14 @@ body {
 	text-align: center;
 	font-size: 1.5em;
 }
-
+/*
 #banner img {
 	margin-right: auto;
 	margin-left: auto;
 	display: block;
 	padding-bottom: 1.7em;
 }
-
+*/
 .projects img {
 	display: block;
 	width: 52vw;
